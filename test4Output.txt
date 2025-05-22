@@ -1,0 +1,130 @@
+
+=== Analysis of 'a1' started at 2025-05-22 15:35:46 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101120 (behaviors: input_capture, looping_behavior)
+- FUN_001014e0 (behaviors: input_capture, looping_behavior)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101370 (behaviors: looping_behavior)
+- FUN_00101550 (behaviors: looping_behavior)
+=== Analysis of 'a1' ended at 2025-05-22 15:37:03 ===
+
+=== Analysis of 'b1' started at 2025-05-22 15:42:29 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_001010e0 (behaviors: input_capture, looping_behavior)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101330 (behaviors: input_capture)
+=== Analysis of 'b1' ended at 2025-05-22 15:43:21 ===
+
+=== Analysis of 'c1' started at 2025-05-22 15:48:37 ===
+
+HIGH THREAT FUNCTIONS:
+- FUN_00101830 (behaviors: logging, looping_behavior, input_capture)
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_001011c0 (behaviors: looping_behavior, input_capture)
+- FUN_00101400 (behaviors: exfiltration, obfuscation)
+- FUN_001015b0 (behaviors: logging, looping_behavior)
+
+LOW THREAT FUNCTIONS:
+- FUN_001016b0 (behaviors: looping_behavior)
+- FUN_00101930 (behaviors: looping_behavior)
+- FUN_001019d0 (behaviors: looping_behavior)
+=== Analysis of 'c1' ended at 2025-05-22 15:50:28 ===
+
+=== Analysis of 'a2' started at 2025-05-22 16:03:30 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101110 (behaviors: input_capture, looping_behavior)
+=== Analysis of 'a2' ended at 2025-05-22 16:04:12 ===
+
+=== Analysis of 'b2' started at 2025-05-22 16:04:25 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101120 (behaviors: input_capture, looping_behavior)
+=== Analysis of 'b2' ended at 2025-05-22 16:05:02 ===
+
+=== Analysis of 'c2' started at 2025-05-22 16:05:19 ===
+
+HIGH THREAT FUNCTIONS:
+- FUN_00101180 (behaviors: looping_behavior, logging, input_capture)
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101390 (behaviors: exfiltration, obfuscation)
+- FUN_00101760 (behaviors: logging, input_capture)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101340 (behaviors: logging)
+- FUN_001015a0 (behaviors: looping_behavior)
+- FUN_00101810 (behaviors: looping_behavior)
+=== Analysis of 'c2' ended at 2025-05-22 16:06:56 ===
+
+=== Analysis of 'a3' started at 2025-05-22 16:07:13 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_001011c0 (behaviors: looping_behavior, input_capture)
+- FUN_00101380 (behaviors: looping_behavior, logging)
+- FUN_001013d0 (behaviors: obfuscation, exfiltration)
+- FUN_00101760 (behaviors: input_capture, logging)
+
+LOW THREAT FUNCTIONS:
+- FUN_001015f0 (behaviors: looping_behavior)
+=== Analysis of 'a3' ended at 2025-05-22 16:08:40 ===
+
+=== Analysis of 'b3' started at 2025-05-22 16:08:55 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101110 (behaviors: looping_behavior, input_capture)
+- FUN_00101450 (behaviors: looping_behavior, input_capture)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101340 (behaviors: looping_behavior)
+=== Analysis of 'b3' ended at 2025-05-22 16:10:07 ===
+
+=== Analysis of 'c3' started at 2025-05-22 16:10:19 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101120 (behaviors: input_capture, looping_behavior)
+- FUN_00101520 (behaviors: input_capture, looping_behavior)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101320 (behaviors: looping_behavior)
+- FUN_001013d0 (behaviors: looping_behavior)
+- FUN_001015e0 (behaviors: looping_behavior)
+=== Analysis of 'c3' ended at 2025-05-22 16:11:48 ===
+
+=== Analysis of 'a4' started at 2025-05-22 16:12:02 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101110 (behaviors: input_capture, looping_behavior)
+- FUN_00101530 (behaviors: input_capture, looping_behavior)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101600 (behaviors: looping_behavior)
+=== Analysis of 'a4' ended at 2025-05-22 16:13:35 ===
+
+=== Analysis of 'b4' started at 2025-05-22 16:13:52 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_001011c0 (behaviors: looping_behavior, input_capture)
+- FUN_001013c0 (behaviors: looping_behavior, logging)
+- FUN_00101410 (behaviors: obfuscation, exfiltration)
+- FUN_00101770 (behaviors: input_capture, logging)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101650 (behaviors: looping_behavior)
+- FUN_00101820 (behaviors: looping_behavior)
+=== Analysis of 'b4' ended at 2025-05-22 16:15:30 ===
+
+=== Analysis of 'c4' started at 2025-05-22 16:16:51 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101110 (behaviors: input_capture, looping_behavior)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101330 (behaviors: looping_behavior)
+- FUN_00101450 (behaviors: input_capture)
+=== Analysis of 'c4' ended at 2025-05-22 16:18:05 ===
