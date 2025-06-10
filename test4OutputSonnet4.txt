@@ -1,0 +1,159 @@
+
+=== Analysis of 'a1' started at 2025-05-26 00:55:15 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_001014e0 (behaviors: input_capture, looping_behavior)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+- FUN_00101120 (behaviors: looping_behavior)
+- FUN_001012c0 (behaviors: looping_behavior)
+- FUN_00101370 (behaviors: looping_behavior)
+- FUN_00101550 (behaviors: looping_behavior)
+=== Analysis of 'a1' ended at 2025-05-26 00:57:18 ===
+
+=== Analysis of 'b1' started at 2025-05-26 00:57:34 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_001010e0 (behaviors: looping_behavior, input_capture)
+- FUN_00101330 (behaviors: looping_behavior, input_capture)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+=== Analysis of 'b1' ended at 2025-05-26 00:59:12 ===
+
+=== Analysis of 'c1' started at 2025-05-26 00:59:25 ===
+
+HIGH THREAT FUNCTIONS:
+- FUN_00101400 (behaviors: looping_behavior, obfuscation, input_capture, logging, exfiltration)
+- FUN_001015b0 (behaviors: logging, looping_behavior, input_capture)
+- FUN_00101830 (behaviors: logging, looping_behavior, input_capture)
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_001011c0 (behaviors: looping_behavior, input_capture)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+- FUN_00101930 (behaviors: looping_behavior)
+- FUN_001019d0 (behaviors: looping_behavior)
+=== Analysis of 'c1' ended at 2025-05-26 01:02:35 ===
+
+=== Analysis of 'a2' started at 2025-05-26 01:02:52 ===
+[2025-05-26 01:02:52] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 01:02:52] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 01:02:52] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 01:02:52] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 01:02:52] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 01:02:52] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 01:02:52] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 01:02:52] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 01:02:52] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+- FUN_00101110 (behaviors: input_capture)
+=== Analysis of 'a2' ended at 2025-05-26 01:03:46 ===
+
+=== Analysis of 'b2' started at 2025-05-26 01:05:07 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101120 (behaviors: looping_behavior, input_capture)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+=== Analysis of 'b2' ended at 2025-05-26 01:06:15 ===
+
+=== Analysis of 'c2' started at 2025-05-26 01:06:28 ===
+
+HIGH THREAT FUNCTIONS:
+- FUN_00101340 (behaviors: input_capture, looping_behavior, logging)
+- FUN_00101390 (behaviors: logging, looping_behavior, exfiltration, obfuscation, input_capture)
+- FUN_00101760 (behaviors: input_capture, looping_behavior, logging)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+- FUN_00101180 (behaviors: looping_behavior)
+- FUN_00101550 (behaviors: looping_behavior)
+- FUN_001015a0 (behaviors: looping_behavior)
+- FUN_00101810 (behaviors: looping_behavior)
+=== Analysis of 'c2' ended at 2025-05-26 01:09:05 ===
+
+=== Analysis of 'a3' started at 2025-05-26 01:09:23 ===
+
+HIGH THREAT FUNCTIONS:
+- FUN_00101380 (behaviors: logging, looping_behavior, input_capture)
+- FUN_001013d0 (behaviors: obfuscation, logging, looping_behavior, exfiltration, input_capture)
+- FUN_00101760 (behaviors: logging, looping_behavior, input_capture)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+- FUN_001011c0 (behaviors: looping_behavior)
+- FUN_001015f0 (behaviors: looping_behavior)
+- FUN_00101810 (behaviors: looping_behavior)
+=== Analysis of 'a3' ended at 2025-05-26 01:12:02 ===
+
+=== Analysis of 'b3' started at 2025-05-26 01:12:15 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101450 (behaviors: input_capture, looping_behavior)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+- FUN_00101110 (behaviors: looping_behavior)
+- FUN_001014d0 (behaviors: looping_behavior)
+=== Analysis of 'b3' ended at 2025-05-26 01:14:24 ===
+
+=== Analysis of 'c3' started at 2025-05-26 01:16:07 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101120 (behaviors: looping_behavior, input_capture)
+- FUN_00101520 (behaviors: looping_behavior, input_capture)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+- FUN_00101320 (behaviors: looping_behavior)
+- FUN_001013d0 (behaviors: looping_behavior)
+- FUN_001015e0 (behaviors: looping_behavior)
+- FUN_001016b0 (behaviors: looping_behavior)
+=== Analysis of 'c3' ended at 2025-05-26 01:18:33 ===
+
+=== Analysis of 'a4' started at 2025-05-26 01:19:04 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101110 (behaviors: input_capture, looping_behavior)
+- FUN_00101530 (behaviors: input_capture, looping_behavior)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+- FUN_00101410 (behaviors: looping_behavior)
+- FUN_001015b0 (behaviors: looping_behavior)
+- FUN_00101600 (behaviors: looping_behavior)
+=== Analysis of 'a4' ended at 2025-05-26 01:21:37 ===
+
+=== Analysis of 'b4' started at 2025-05-26 01:22:50 ===
+
+HIGH THREAT FUNCTIONS:
+- FUN_001013c0 (behaviors: input_capture, logging, looping_behavior)
+- FUN_00101410 (behaviors: logging, obfuscation, looping_behavior, input_capture, exfiltration)
+- FUN_00101770 (behaviors: input_capture, logging, looping_behavior)
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_001011c0 (behaviors: input_capture, looping_behavior)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+- FUN_00101650 (behaviors: looping_behavior)
+- FUN_00101820 (behaviors: looping_behavior)
+=== Analysis of 'b4' ended at 2025-05-26 01:25:44 ===
+
+=== Analysis of 'c4' started at 2025-05-26 01:26:02 ===
+
+MEDIUM THREAT FUNCTIONS:
+- FUN_00101110 (behaviors: input_capture, looping_behavior)
+- FUN_00101450 (behaviors: input_capture, looping_behavior)
+
+LOW THREAT FUNCTIONS:
+- FUN_00101020 (behaviors: looping_behavior)
+- FUN_00101330 (behaviors: looping_behavior)
+- FUN_001014f0 (behaviors: looping_behavior)
+=== Analysis of 'c4' ended at 2025-05-26 01:28:12 ===
