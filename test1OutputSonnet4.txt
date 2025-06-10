@@ -1,0 +1,605 @@
+
+=== Analysis of 'a1' started at 2025-05-25 02:13:38 ===
+[2025-05-25 02:13:38] Error querying LLM for function printw: 502 Server Error: Bad Gateway for url: https://api.anthropic.com/v1/messages
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 02:13:38] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 02:13:38] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 02:13:38] - Function `wgetch` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 02:13:38] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `wtimeout` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `time` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `memmove` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `rand` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `rand` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `FUN_00101120` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 02:13:38] - Function `FUN_00101120` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 02:13:38] - Function `FUN_00101120` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 02:13:38] - Function `FUN_00101120` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `FUN_001012c0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `FUN_001012c0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `FUN_00101370` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `FUN_00101370` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `FUN_001014e0` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 02:13:38] - Function `FUN_001014e0` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 02:13:38] - Function `FUN_001014e0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `FUN_001014e0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `FUN_00101550` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:13:38] - Function `FUN_00101550` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 02:13:38] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `memmove` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:13:38] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 40
+=== Analysis of 'a1' ended at 2025-05-25 02:26:57 ===
+
+=== Analysis of 'b1' started at 2025-05-25 02:27:40 ===
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 02:27:40] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:27:40] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 02:27:40] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 02:27:40] - Function `wgetch` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:27:40] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 02:27:40] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:27:40] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `printw` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:27:40] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:27:40] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `FUN_001010e0` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 02:27:40] - Function `FUN_001010e0` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 02:27:40] - Function `FUN_001010e0` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 02:27:40] - Function `FUN_001010e0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:27:40] - Function `FUN_001010e0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:27:40] - Function `FUN_001012d0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:27:40] - Function `FUN_001012d0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `FUN_00101330` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 02:27:40] - Function `FUN_00101330` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 02:27:40] - Function `FUN_00101330` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:27:40] - Function `FUN_00101330` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 02:27:40] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:27:40] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 32
+=== Analysis of 'b1' ended at 2025-05-25 02:38:03 ===
+
+=== Analysis of 'c1' started at 2025-05-25 02:41:02 ===
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 02:41:02] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `nodelay` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `curs_set` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 02:41:02] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 02:41:02] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 02:41:02] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `snprintf` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `gettimeofday` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `wrefresh` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `fputc` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `srand` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `wtimeout` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `time` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `fflush` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `waitpid` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `fopen` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `exit` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `FUN_001011c0` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 02:41:02] - Function `FUN_001011c0` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 02:41:02] - Function `FUN_001011c0` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 02:41:02] - Function `FUN_001011c0` triggered [Logging]: Detects file flushing behavior after input logging.
+[2025-05-25 02:41:02] - Function `FUN_001011c0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `FUN_001013ea` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `FUN_00101400` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 02:41:02] - Function `FUN_00101400` triggered [Logging]: Checks if user input is written to a file.
+[2025-05-25 02:41:02] - Function `FUN_00101400` triggered [Exfiltration]: Detects network activity for data exfiltration.
+[2025-05-25 02:41:02] - Function `FUN_00101400` triggered [Exfiltration]: Identifies use of shell commands that may exfiltrate data.
+[2025-05-25 02:41:02] - Function `FUN_00101400` triggered [Obfuscation]: Detects multi-stage command construction.
+[2025-05-25 02:41:02] - Function `FUN_00101400` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `FUN_00101400` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `FUN_001015b0` triggered [Logging]: Looks for suspicious file creation in hidden or temporary directories.
+[2025-05-25 02:41:02] - Function `FUN_001015b0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `FUN_001015b0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `FUN_00101600` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `FUN_001016b0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `FUN_001016b0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `FUN_00101830` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 02:41:02] - Function `FUN_00101830` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 02:41:02] - Function `FUN_00101830` triggered [Logging]: Checks if user input is written to a file.
+[2025-05-25 02:41:02] - Function `FUN_00101830` triggered [Logging]: Detects file flushing behavior after input logging.
+[2025-05-25 02:41:02] - Function `FUN_00101830` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `FUN_00101830` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `FUN_00101930` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `FUN_00101930` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `FUN_001019d0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 02:41:02] - Function `FUN_001019d0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 02:41:02] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 02:41:02] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 61
+=== Analysis of 'c1' ended at 2025-05-25 03:01:12 ===
+
+=== Analysis of 'a2' started at 2025-05-25 03:01:28 ===
+[2025-05-25 03:01:28] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-25 03:01:28] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-25 03:01:28] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-25 03:01:28] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-25 03:01:28] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-25 03:01:28] Error querying LLM for function entry: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-25 03:01:28] Error querying LLM for function entry: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-25 03:01:28] Error querying LLM for function entry: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-25 03:01:28] Error querying LLM for function entry: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-25 03:01:28] Error querying LLM for function entry: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-25 03:01:28] Error querying LLM for function entry: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 03:01:28] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:01:28] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 03:01:28] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 03:01:28] - Function `wgetch` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:01:28] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 03:01:28] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:01:28] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `wtimeout` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:01:28] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `time` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `memmove` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:01:28] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `FUN_00101110` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 03:01:28] - Function `FUN_00101110` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 03:01:28] - Function `FUN_00101110` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 03:01:28] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:01:28] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 03:01:28] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `memmove` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:01:28] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 27
+=== Analysis of 'a2' ended at 2025-05-25 03:13:10 ===
+
+=== Analysis of 'b2' started at 2025-05-25 03:16:18 ===
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 03:16:18] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `nodelay` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:16:18] - Function `curs_set` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 03:16:18] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 03:16:18] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 03:16:18] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:16:18] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `wtimeout` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:16:18] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `time` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `rand` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:16:18] - Function `rand` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:16:18] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `FUN_00101120` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 03:16:18] - Function `FUN_00101120` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 03:16:18] - Function `FUN_00101120` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 03:16:18] - Function `FUN_00101120` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:16:18] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:16:18] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 03:16:18] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:16:18] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 29
+=== Analysis of 'b2' ended at 2025-05-25 03:28:44 ===
+
+=== Analysis of 'c2' started at 2025-05-25 03:30:40 ===
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 03:30:40] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 03:30:40] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 03:30:40] - Function `wgetch` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 03:30:40] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `gettimeofday` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `fputc` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `fflush` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `waitpid` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `fopen` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `printw` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `FUN_00101180` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 03:30:40] - Function `FUN_00101180` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 03:30:40] - Function `FUN_00101180` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 03:30:40] - Function `FUN_00101180` triggered [Logging]: Detects file flushing behavior after input logging.
+[2025-05-25 03:30:40] - Function `FUN_00101180` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `FUN_00101340` triggered [Logging]: Looks for suspicious file creation in hidden or temporary directories.
+[2025-05-25 03:30:40] - Function `FUN_00101340` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `FUN_00101340` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `FUN_00101390` triggered [Logging]: Checks if user input is written to a file.
+[2025-05-25 03:30:40] - Function `FUN_00101390` triggered [Exfiltration]: Detects network activity for data exfiltration.
+[2025-05-25 03:30:40] - Function `FUN_00101390` triggered [Exfiltration]: Identifies use of shell commands that may exfiltrate data.
+[2025-05-25 03:30:40] - Function `FUN_00101390` triggered [Obfuscation]: Detects multi-stage command construction.
+[2025-05-25 03:30:40] - Function `FUN_00101390` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `FUN_00101390` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `FUN_00101550` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `FUN_001015a0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `FUN_001015a0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `FUN_00101760` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 03:30:40] - Function `FUN_00101760` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 03:30:40] - Function `FUN_00101760` triggered [Logging]: Checks if user input is written to a file.
+[2025-05-25 03:30:40] - Function `FUN_00101760` triggered [Logging]: Detects file flushing behavior after input logging.
+[2025-05-25 03:30:40] - Function `FUN_00101760` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `FUN_00101760` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `FUN_00101810` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 03:30:40] - Function `FUN_00101810` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 03:30:40] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 03:30:40] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 51
+=== Analysis of 'c2' ended at 2025-05-25 03:48:44 ===
+
+=== Analysis of 'a3' started at 2025-05-25 04:01:04 ===
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 04:01:04] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 04:01:04] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 04:01:04] - Function `wgetch` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 04:01:04] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `gettimeofday` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `fputc` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `wtimeout` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `time` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `fflush` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `waitpid` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `fopen` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `printw` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `rand` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `rand` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `FUN_001011c0` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 04:01:04] - Function `FUN_001011c0` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 04:01:04] - Function `FUN_001011c0` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 04:01:04] - Function `FUN_001011c0` triggered [Logging]: Detects file flushing behavior after input logging.
+[2025-05-25 04:01:04] - Function `FUN_001011c0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `FUN_00101380` triggered [Logging]: Looks for suspicious file creation in hidden or temporary directories.
+[2025-05-25 04:01:04] - Function `FUN_00101380` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `FUN_00101380` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `FUN_001013d0` triggered [Logging]: Checks if user input is written to a file.
+[2025-05-25 04:01:04] - Function `FUN_001013d0` triggered [Exfiltration]: Detects network activity for data exfiltration.
+[2025-05-25 04:01:04] - Function `FUN_001013d0` triggered [Obfuscation]: Detects multi-stage command construction.
+[2025-05-25 04:01:04] - Function `FUN_001013d0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `FUN_001013d0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `FUN_00101590` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `FUN_001015f0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `FUN_001015f0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `FUN_00101760` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 04:01:04] - Function `FUN_00101760` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 04:01:04] - Function `FUN_00101760` triggered [Logging]: Checks if user input is written to a file.
+[2025-05-25 04:01:04] - Function `FUN_00101760` triggered [Logging]: Detects file flushing behavior after input logging.
+[2025-05-25 04:01:04] - Function `FUN_00101760` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `FUN_00101760` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `FUN_00101810` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:01:04] - Function `FUN_00101810` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 04:01:04] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:01:04] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 54
+=== Analysis of 'a3' ended at 2025-05-25 04:20:46 ===
+
+=== Analysis of 'b3' started at 2025-05-25 04:23:37 ===
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 04:23:37] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 04:23:37] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 04:23:37] - Function `wgetch` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 04:23:37] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `wtimeout` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `time` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `printw` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `rand` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `rand` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `FUN_00101110` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 04:23:37] - Function `FUN_00101110` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 04:23:37] - Function `FUN_00101110` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 04:23:37] - Function `FUN_00101110` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `FUN_001012b0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `FUN_00101340` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `FUN_00101340` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `FUN_00101450` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 04:23:37] - Function `FUN_00101450` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 04:23:37] - Function `FUN_00101450` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `FUN_00101450` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `FUN_001014d0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:23:37] - Function `FUN_001014d0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 04:23:37] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:23:37] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 38
+=== Analysis of 'b3' ended at 2025-05-25 04:36:51 ===
+
+=== Analysis of 'c3' started at 2025-05-25 04:37:13 ===
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 04:37:13] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `nodelay` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `curs_set` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 04:37:13] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 04:37:13] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 04:37:13] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `wtimeout` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `time` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `rand` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `rand` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `FUN_00101120` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 04:37:13] - Function `FUN_00101120` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 04:37:13] - Function `FUN_00101120` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 04:37:13] - Function `FUN_00101120` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `FUN_00101320` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `FUN_00101320` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `FUN_001013d0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `FUN_001013d0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `FUN_00101520` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 04:37:13] - Function `FUN_00101520` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 04:37:13] - Function `FUN_00101520` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `FUN_00101520` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `FUN_001015e0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `FUN_001015e0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `FUN_001016b0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 04:37:13] - Function `FUN_001016b0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 04:37:13] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 04:37:13] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 41
+=== Analysis of 'c3' ended at 2025-05-25 04:51:25 ===
+
+=== Analysis of 'a4' started at 2025-05-25 16:37:50 ===
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 16:37:50] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 16:37:50] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 16:37:50] - Function `wgetch` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 16:37:50] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `wtimeout` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `time` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `printw` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `rand` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `rand` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `FUN_00101110` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 16:37:50] - Function `FUN_00101110` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 16:37:50] - Function `FUN_00101110` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 16:37:50] - Function `FUN_00101110` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `FUN_001012b0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `FUN_00101410` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `FUN_00101410` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `FUN_00101530` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 16:37:50] - Function `FUN_00101530` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 16:37:50] - Function `FUN_00101530` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `FUN_00101530` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `FUN_001015b0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `FUN_001015b0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `FUN_00101600` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:37:50] - Function `FUN_00101600` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 16:37:50] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:37:50] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 40
+=== Analysis of 'a4' ended at 2025-05-25 16:52:22 ===
+
+=== Analysis of 'b4' started at 2025-05-25 16:56:09 ===
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 16:56:09] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 16:56:09] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 16:56:09] - Function `wgetch` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 16:56:09] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `gettimeofday` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `fputc` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `wtimeout` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `time` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `fflush` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `waitpid` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `fopen` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `printw` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `rand` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `rand` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `FUN_001011c0` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 16:56:09] - Function `FUN_001011c0` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 16:56:09] - Function `FUN_001011c0` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 16:56:09] - Function `FUN_001011c0` triggered [Logging]: Detects file flushing behavior after input logging.
+[2025-05-25 16:56:09] - Function `FUN_001011c0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `thunk_FUN_001013aa` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `FUN_001013aa` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `FUN_001013c0` triggered [Logging]: Looks for suspicious file creation in hidden or temporary directories.
+[2025-05-25 16:56:09] - Function `FUN_001013c0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `FUN_001013c0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `FUN_00101410` triggered [Logging]: Checks if user input is written to a file.
+[2025-05-25 16:56:09] - Function `FUN_00101410` triggered [Logging]: Looks for suspicious file creation in hidden or temporary directories.
+[2025-05-25 16:56:09] - Function `FUN_00101410` triggered [Exfiltration]: Detects network activity for data exfiltration.
+[2025-05-25 16:56:09] - Function `FUN_00101410` triggered [Exfiltration]: Identifies use of shell commands that may exfiltrate data.
+[2025-05-25 16:56:09] - Function `FUN_00101410` triggered [Obfuscation]: Detects multi-stage command construction.
+[2025-05-25 16:56:09] - Function `FUN_00101410` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `FUN_00101410` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `FUN_001015d0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `FUN_00101650` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `FUN_00101650` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `FUN_00101770` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 16:56:09] - Function `FUN_00101770` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 16:56:09] - Function `FUN_00101770` triggered [Logging]: Checks if user input is written to a file.
+[2025-05-25 16:56:09] - Function `FUN_00101770` triggered [Logging]: Detects file flushing behavior after input logging.
+[2025-05-25 16:56:09] - Function `FUN_00101770` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `FUN_00101770` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `FUN_00101820` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 16:56:09] - Function `FUN_00101820` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 16:56:09] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 16:56:09] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 58
+=== Analysis of 'b4' ended at 2025-05-25 17:17:44 ===
+
+=== Analysis of 'c4' started at 2025-05-25 17:19:33 ===
+
+⚠️  Suspicious behaviors detected:
+[2025-05-25 17:19:33] - Function `FUN_00101020` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `curs_set` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `wgetch` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 17:19:33] - Function `wgetch` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 17:19:33] - Function `wgetch` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `wgetch` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `wclear` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 17:19:33] - Function `noecho` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `initscr` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `wtimeout` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `wtimeout` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `time` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `printw` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `printw` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `rand` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `rand` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `usleep` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `FUN_00101110` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 17:19:33] - Function `FUN_00101110` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 17:19:33] - Function `FUN_00101110` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 17:19:33] - Function `FUN_00101110` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `entry` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `_FINI_0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `FUN_001012b0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `FUN_00101330` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `FUN_00101330` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `FUN_00101450` triggered [Input Capture]: Detects whether a function reads keyboard input directly or indirectly.
+[2025-05-25 17:19:33] - Function `FUN_00101450` triggered [Input Capture]: Detects stdin or terminal-based input monitoring.
+[2025-05-25 17:19:33] - Function `FUN_00101450` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `FUN_00101450` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `FUN_001014f0` triggered [Suspicious Globals]: Checks for use of suspicious global variables.
+[2025-05-25 17:19:33] - Function `FUN_001014f0` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `noecho` triggered [Input Capture]: Detects suspicious low-level input monitoring without UI feedback.
+[2025-05-25 17:19:33] - Function `wrefresh` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+[2025-05-25 17:19:33] - Function `usleep` triggered [Behavior Context]: Detects if function is likely called in a loop or frequently over time.
+
+Total suspicious detections: 38
+=== Analysis of 'c4' ended at 2025-05-25 17:33:30 ===
