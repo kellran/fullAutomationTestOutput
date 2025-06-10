@@ -1,0 +1,298 @@
+
+=== Analysis of 'a1' started at 2025-05-26 00:15:57 ===
+
+  Suspicious behaviors detected:
+[2025-05-26 00:15:57] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:15:57] - Function `FUN_00101120` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:15:57] - Function `FUN_00101120` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:15:57] - Function `FUN_001012c0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:15:57] - Function `FUN_001012c0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:15:57] - Function `FUN_00101370` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:15:57] - Function `FUN_001014e0` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:15:57] - Function `FUN_001014e0` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:15:57] - Function `FUN_001014e0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:15:57] - Function `FUN_001014e0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:15:57] - Function `FUN_00101550` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:15:57] - Function `FUN_00101550` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+
+Total suspicious detections: 12
+=== Analysis of 'a1' ended at 2025-05-26 00:18:18 ===
+
+=== Analysis of 'b1' started at 2025-05-26 00:18:32 ===
+
+  Suspicious behaviors detected:
+[2025-05-26 00:18:32] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:18:32] - Function `FUN_001010e0` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:18:32] - Function `FUN_001010e0` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:18:32] - Function `FUN_001010e0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:18:32] - Function `FUN_001010e0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:18:32] - Function `FUN_00101330` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:18:32] - Function `FUN_00101330` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:18:32] - Function `FUN_00101330` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+
+Total suspicious detections: 8
+=== Analysis of 'b1' ended at 2025-05-26 00:20:20 ===
+
+=== Analysis of 'c1' started at 2025-05-26 00:20:32 ===
+
+  Suspicious behaviors detected:
+[2025-05-26 00:20:32] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:20:32] - Function `FUN_001011c0` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:20:32] - Function `FUN_001011c0` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:20:32] - Function `FUN_001011c0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:20:32] - Function `FUN_001011c0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:20:32] - Function `FUN_00101400` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:20:32] - Function `FUN_00101400` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:20:32] - Function `FUN_00101400` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:20:32] - Function `FUN_00101400` triggered [Logging]: Detects file access in unusual paths.
+[2025-05-26 00:20:32] - Function `FUN_00101400` triggered [Exfiltration]: Flags network-based data transmission.
+[2025-05-26 00:20:32] - Function `FUN_00101400` triggered [Exfiltration]: Detects suspicious system commands.
+[2025-05-26 00:20:32] - Function `FUN_00101400` triggered [Obfuscation]: Detects suspicious command construction.
+[2025-05-26 00:20:32] - Function `FUN_00101400` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:20:32] - Function `FUN_00101400` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:20:32] - Function `FUN_001015b0` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:20:32] - Function `FUN_001015b0` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:20:32] - Function `FUN_001015b0` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:20:32] - Function `FUN_001015b0` triggered [Logging]: Detects file access in unusual paths.
+[2025-05-26 00:20:32] - Function `FUN_001015b0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:20:32] - Function `FUN_001015b0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:20:32] - Function `FUN_00101600` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:20:32] - Function `FUN_001016b0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:20:32] - Function `FUN_00101830` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:20:32] - Function `FUN_00101830` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:20:32] - Function `FUN_00101830` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:20:32] - Function `FUN_00101830` triggered [Logging]: Detects behavior to finalize log storage.
+[2025-05-26 00:20:32] - Function `FUN_00101830` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:20:32] - Function `FUN_00101830` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:20:32] - Function `FUN_00101930` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:20:32] - Function `FUN_00101930` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:20:32] - Function `FUN_001019d0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:20:32] - Function `FUN_001019d0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+
+Total suspicious detections: 32
+=== Analysis of 'c1' ended at 2025-05-26 00:23:59 ===
+
+=== Analysis of 'a2' started at 2025-05-26 00:24:34 ===
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101110: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+[2025-05-26 00:24:34] Error querying LLM for function FUN_00101a10: 429 Client Error: Too Many Requests for url: https://api.anthropic.com/v1/messages
+
+  Suspicious behaviors detected:
+[2025-05-26 00:24:34] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:24:34] - Function `FUN_00101110` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:24:34] - Function `FUN_00101110` triggered [Input Capture]: Flags input suppression techniques.
+
+Total suspicious detections: 3
+=== Analysis of 'a2' ended at 2025-05-26 00:25:32 ===
+
+=== Analysis of 'b2' started at 2025-05-26 00:26:12 ===
+
+  Suspicious behaviors detected:
+[2025-05-26 00:26:12] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:26:12] - Function `FUN_00101120` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:26:12] - Function `FUN_00101120` triggered [Input Capture]: Flags input suppression techniques.
+[2025-05-26 00:26:12] - Function `FUN_00101120` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:26:12] - Function `FUN_00101120` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+
+Total suspicious detections: 5
+=== Analysis of 'b2' ended at 2025-05-26 00:27:27 ===
+
+=== Analysis of 'c2' started at 2025-05-26 00:28:08 ===
+
+  Suspicious behaviors detected:
+[2025-05-26 00:28:08] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:28:08] - Function `FUN_00101180` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:28:08] - Function `FUN_00101180` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:28:08] - Function `FUN_00101340` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:28:08] - Function `FUN_00101340` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:28:08] - Function `FUN_00101340` triggered [Logging]: Detects file access in unusual paths.
+[2025-05-26 00:28:08] - Function `FUN_00101340` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:28:08] - Function `FUN_00101340` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:28:08] - Function `FUN_00101390` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:28:08] - Function `FUN_00101390` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:28:08] - Function `FUN_00101390` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:28:08] - Function `FUN_00101390` triggered [Logging]: Detects file access in unusual paths.
+[2025-05-26 00:28:08] - Function `FUN_00101390` triggered [Exfiltration]: Flags network-based data transmission.
+[2025-05-26 00:28:08] - Function `FUN_00101390` triggered [Exfiltration]: Detects suspicious system commands.
+[2025-05-26 00:28:08] - Function `FUN_00101390` triggered [Obfuscation]: Detects suspicious command construction.
+[2025-05-26 00:28:08] - Function `FUN_00101390` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:28:08] - Function `FUN_00101390` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:28:08] - Function `FUN_00101550` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:28:08] - Function `FUN_00101550` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:28:08] - Function `FUN_001015a0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:28:08] - Function `FUN_001015a0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:28:08] - Function `FUN_00101760` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:28:08] - Function `FUN_00101760` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:28:08] - Function `FUN_00101760` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:28:08] - Function `FUN_00101760` triggered [Logging]: Detects behavior to finalize log storage.
+[2025-05-26 00:28:08] - Function `FUN_00101760` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:28:08] - Function `FUN_00101760` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:28:08] - Function `FUN_00101810` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:28:08] - Function `FUN_00101810` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+
+Total suspicious detections: 29
+=== Analysis of 'c2' ended at 2025-05-26 00:31:08 ===
+
+=== Analysis of 'a3' started at 2025-05-26 00:31:23 ===
+
+  Suspicious behaviors detected:
+[2025-05-26 00:31:23] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:31:23] - Function `FUN_001011c0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:31:23] - Function `FUN_001011c0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:31:23] - Function `FUN_00101380` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:31:23] - Function `FUN_00101380` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:31:23] - Function `FUN_00101380` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:31:23] - Function `FUN_00101380` triggered [Logging]: Detects file access in unusual paths.
+[2025-05-26 00:31:23] - Function `FUN_00101380` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:31:23] - Function `FUN_00101380` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:31:23] - Function `FUN_001013d0` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:31:23] - Function `FUN_001013d0` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:31:23] - Function `FUN_001013d0` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:31:23] - Function `FUN_001013d0` triggered [Logging]: Detects file access in unusual paths.
+[2025-05-26 00:31:23] - Function `FUN_001013d0` triggered [Exfiltration]: Flags network-based data transmission.
+[2025-05-26 00:31:23] - Function `FUN_001013d0` triggered [Exfiltration]: Detects suspicious system commands.
+[2025-05-26 00:31:23] - Function `FUN_001013d0` triggered [Obfuscation]: Detects suspicious command construction.
+[2025-05-26 00:31:23] - Function `FUN_001013d0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:31:23] - Function `FUN_001013d0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:31:23] - Function `FUN_00101590` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:31:23] - Function `FUN_001015f0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:31:23] - Function `FUN_001015f0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:31:23] - Function `FUN_00101760` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:31:23] - Function `FUN_00101760` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:31:23] - Function `FUN_00101760` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:31:23] - Function `FUN_00101760` triggered [Logging]: Detects behavior to finalize log storage.
+[2025-05-26 00:31:23] - Function `FUN_00101760` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:31:23] - Function `FUN_00101760` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:31:23] - Function `FUN_00101810` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:31:23] - Function `FUN_00101810` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+
+Total suspicious detections: 29
+=== Analysis of 'a3' ended at 2025-05-26 00:34:23 ===
+
+=== Analysis of 'b3' started at 2025-05-26 00:34:35 ===
+
+  Suspicious behaviors detected:
+[2025-05-26 00:34:35] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:34:35] - Function `FUN_00101110` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:34:35] - Function `FUN_00101110` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:34:35] - Function `FUN_001012b0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:34:35] - Function `FUN_00101340` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:34:35] - Function `FUN_00101450` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:34:35] - Function `FUN_00101450` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:34:35] - Function `FUN_00101450` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:34:35] - Function `FUN_001014d0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:34:35] - Function `FUN_001014d0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+
+Total suspicious detections: 10
+=== Analysis of 'b3' ended at 2025-05-26 00:36:55 ===
+
+=== Analysis of 'c3' started at 2025-05-26 00:37:11 ===
+
+  Suspicious behaviors detected:
+[2025-05-26 00:37:11] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:37:11] - Function `FUN_00101120` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:37:11] - Function `FUN_00101120` triggered [Input Capture]: Flags input suppression techniques.
+[2025-05-26 00:37:11] - Function `FUN_00101120` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:37:11] - Function `FUN_00101120` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:37:11] - Function `FUN_00101320` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:37:11] - Function `FUN_00101320` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:37:11] - Function `FUN_001013d0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:37:11] - Function `FUN_001013d0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:37:11] - Function `FUN_00101520` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:37:11] - Function `FUN_00101520` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:37:11] - Function `FUN_00101520` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:37:11] - Function `FUN_001015e0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:37:11] - Function `FUN_001015e0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:37:11] - Function `FUN_001016b0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:37:11] - Function `FUN_001016b0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+
+Total suspicious detections: 16
+=== Analysis of 'c3' ended at 2025-05-26 00:39:52 ===
+
+=== Analysis of 'a4' started at 2025-05-26 00:40:11 ===
+
+  Suspicious behaviors detected:
+[2025-05-26 00:40:11] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:40:11] - Function `FUN_00101110` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:40:11] - Function `FUN_00101110` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:40:11] - Function `FUN_00101110` triggered [Input Capture]: Flags input suppression techniques.
+[2025-05-26 00:40:11] - Function `FUN_00101110` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:40:11] - Function `FUN_00101110` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:40:11] - Function `FUN_001012b0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:40:11] - Function `FUN_00101410` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:40:11] - Function `FUN_00101410` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:40:11] - Function `FUN_00101530` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:40:11] - Function `FUN_00101530` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:40:11] - Function `FUN_00101530` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:40:11] - Function `FUN_001015b0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:40:11] - Function `FUN_001015b0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:40:11] - Function `FUN_00101600` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:40:11] - Function `FUN_00101600` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+
+Total suspicious detections: 16
+=== Analysis of 'a4' ended at 2025-05-26 00:42:49 ===
+
+=== Analysis of 'b4' started at 2025-05-26 00:43:40 ===
+
+  Suspicious behaviors detected:
+[2025-05-26 00:43:40] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:43:40] - Function `FUN_001011c0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:43:40] - Function `FUN_001011c0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:43:40] - Function `FUN_001013c0` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:43:40] - Function `FUN_001013c0` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:43:40] - Function `FUN_001013c0` triggered [Logging]: Detects file access in unusual paths.
+[2025-05-26 00:43:40] - Function `FUN_001013c0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:43:40] - Function `FUN_001013c0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:43:40] - Function `FUN_00101410` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:43:40] - Function `FUN_00101410` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:43:40] - Function `FUN_00101410` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:43:40] - Function `FUN_00101410` triggered [Logging]: Detects file access in unusual paths.
+[2025-05-26 00:43:40] - Function `FUN_00101410` triggered [Exfiltration]: Flags network-based data transmission.
+[2025-05-26 00:43:40] - Function `FUN_00101410` triggered [Exfiltration]: Detects suspicious system commands.
+[2025-05-26 00:43:40] - Function `FUN_00101410` triggered [Obfuscation]: Detects suspicious command construction.
+[2025-05-26 00:43:40] - Function `FUN_00101410` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:43:40] - Function `FUN_00101410` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:43:40] - Function `FUN_001015d0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:43:40] - Function `FUN_00101650` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:43:40] - Function `FUN_00101650` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:43:40] - Function `FUN_00101770` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:43:40] - Function `FUN_00101770` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:43:40] - Function `FUN_00101770` triggered [Logging]: Detects writing keystrokes to file.
+[2025-05-26 00:43:40] - Function `FUN_00101770` triggered [Logging]: Detects behavior to finalize log storage.
+[2025-05-26 00:43:40] - Function `FUN_00101770` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:43:40] - Function `FUN_00101770` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:43:40] - Function `FUN_00101820` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:43:40] - Function `FUN_00101820` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+
+Total suspicious detections: 28
+=== Analysis of 'b4' ended at 2025-05-26 00:46:57 ===
+
+=== Analysis of 'c4' started at 2025-05-26 00:47:09 ===
+
+  Suspicious behaviors detected:
+[2025-05-26 00:47:09] - Function `FUN_00101020` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:47:09] - Function `FUN_00101110` triggered [Input Capture]: Detects whether a function captures user keystrokes for storage or later use.
+[2025-05-26 00:47:09] - Function `FUN_00101110` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:47:09] - Function `FUN_00101110` triggered [Input Capture]: Flags input suppression techniques.
+[2025-05-26 00:47:09] - Function `FUN_00101110` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:47:09] - Function `FUN_00101110` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:47:09] - Function `FUN_001012b0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:47:09] - Function `FUN_00101330` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:47:09] - Function `FUN_00101330` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:47:09] - Function `FUN_00101450` triggered [Input Capture]: Detects use of stdin or terminal APIs in suspicious ways.
+[2025-05-26 00:47:09] - Function `FUN_00101450` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:47:09] - Function `FUN_00101450` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+[2025-05-26 00:47:09] - Function `FUN_001014f0` triggered [Suspicious Globals]: Detects globals used to store sensitive input or state.
+[2025-05-26 00:47:09] - Function `FUN_001014f0` triggered [Behavior Context]: Detects looped or repeated invocation patterns.
+
+Total suspicious detections: 14
+=== Analysis of 'c4' ended at 2025-05-26 00:49:31 ===
